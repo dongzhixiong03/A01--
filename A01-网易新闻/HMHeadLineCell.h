@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HMHeadLineCell.h
 //  A01-网易新闻
 //
 //  Created by teacher on 15/7/22.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@class HMHeadLine;
+@interface HMHeadLineCell : UICollectionViewCell
+@property (nonatomic, strong) HMHeadLine *headLine;
 @end
-
