@@ -38,6 +38,8 @@
     [super viewDidLoad];
     
     NSLog(@"第一次提交");
+
+    NSLog(@"diercitijiao");
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
